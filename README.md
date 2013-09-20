@@ -3,13 +3,12 @@ logger
 
 ssh logger - a dirty bash script to save all your ssh sessions to a text file.
 
+-create a folder called logger in your home dir
 
--git clone https://github.com/ninjadru/logger.git
+-inside logger creat a folder called logs
 
--cd logger
-
--make logger.sh executable (chmod 755 logger.sh)
+-make script executable
 
 -add alias to .bashrc
 
--alias ssh='/home/USERNAME/logger/logger.sh'
+-alias ssh='/home/dru/logger/logger.sh'
