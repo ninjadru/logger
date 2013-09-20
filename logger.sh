@@ -3,6 +3,6 @@
 
 DATE=$(date +"%m%d%y-%T")
 HOST=$1
-DIR="/home/dru/logger"
+DIR="~/logger"
 OUT="$DIR/$HOST-$DATE"
 ssh $HOST |tee -a $OUT
